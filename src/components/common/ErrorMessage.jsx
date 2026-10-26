@@ -1,0 +1,4 @@
+export default function ErrorMessage({ message }) {
+  if (!message) return null;
+  return <p className="text-sm text-red-600 py-2">{message}</p>;
+}
